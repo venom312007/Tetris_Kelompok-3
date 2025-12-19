@@ -16,12 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let isPaused = true;
 
     // --- PENGATURAN AUDIO ---
-    const bgm = new Audio('music-for-puzzle-game-146738.mp3'); 
+    const bgm = new Audio('Sound in games.mp3'); 
     bgm.loop = true;      // Lagu berulang terus
     bgm.volume = 0.5;     // Volume 40%
 
     const clearSound = new Audio('clear.mp3');
-    const gameOverSound = new Audio('game-over-38511.mp3');
+    const gameOverSound = new Audio('sound-game over.mp3');
 
     // --- MEMBUAT GRID ---
     function createGrid() {
@@ -190,3 +190,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
